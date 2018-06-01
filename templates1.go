@@ -17,7 +17,7 @@ const tmpl = `Note - Title: {{.Title}}, Description: {{.Description}}
 func main() {
 	note := Note{"text/template", "Template generates textual output"}
 
-	t := template.New("note")
+	t := template.New("note0")
 
 	t, err := t.Parse(tmpl)
 	if err != nil {
